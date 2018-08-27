@@ -72,7 +72,7 @@ wss.on('connection', function connection(ws) {
 			console.log('received: %s', message)
 		}
 	})
-	console.log('新的连接')
+	console.log('有新的连接')
 })
 
 server.listen(8080)
